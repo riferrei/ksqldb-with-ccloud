@@ -1,0 +1,25 @@
+###########################################
+################## AWS ####################
+###########################################
+
+aws_access_key = "<AWS_ACCESS_KEY>"
+aws_secret_key = "<AWS_ACCESS_SECRET>"
+
+###########################################
+############# Confluent Cloud #############
+###########################################
+
+bootstrap_server = "<BOOTSTRAP_SERVER>"
+cluster_api_key = "<CLUSTER_API_KEY>"
+cluster_api_secret = "<CLUSTER_API_SECRET>"
+
+schema_registry_url = "<SCHEMA_REGISTRY_URL>"
+schema_registry_basic_auth = "<SCHEMA_REGISTRY_API_KEY:SCHEMA_REGISTRY_API_SECRET>"
+
+###########################################
+############## ksqlDB Server ##############
+###########################################
+
+automatic_scaling = false
+min_desired_count = 1
+max_desired_count = 8
